@@ -1,0 +1,18 @@
+version: "3.3"
+services:
+  proyectocarolina:
+    image: node:lts
+    stdin_open: true
+    restart: always
+    expose:
+      - "3014"
+    ports:
+      - "3014:3000"
+    environment:
+      - "PORT=3000"
+    volumes:
+      - ./:/development/proyectocarolina
+    working_dir: /development/proyectocarolina
+    #command: sh -c "npm config set proxy http://10.232.40.12:8080 && npm config set https-proxy http://10.232.40.12:8080 && npm install && npm start"
+    #command: sh -c "npm install && npm start"
+    command: sh -c "npm install && npm start"
