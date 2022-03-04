@@ -1,0 +1,1852 @@
+{
+  "_id": { "$oid": "6183bb77772bdf00c0bda2b9" },
+  "periodicity": {
+    "weeks": {
+      "semana1": false,
+      "semana2": false,
+      "semana3": false,
+      "semana4": false,
+      "mes": false
+    },
+    "isFormFinish": false,
+    "isActive": false
+  },
+  "version": 0,
+  "structure": [
+    {
+      "id": "Pestaña-1636023159400",
+      "nombre_seccion": "Identificación",
+      "elementos": {
+        "f9081479-d29c-41f8-8c21-a88b3aec6852": {
+          "ordinal": 0,
+          "_id": "f9081479-d29c-41f8-8c21-a88b3aec6852",
+          "row": "row-1",
+          "title": "NHC",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "dbName": "nhc",
+          "conditional_value": null
+        },
+        "68fa38a2-2f4c-4256-a493-51017806ca00": {
+          "ordinal": 1,
+          "_id": "68fa38a2-2f4c-4256-a493-51017806ca00",
+          "row": "row-1",
+          "title": "NUHSA",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "ST",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "dbName": "nuhsa"
+        },
+        "c68e356c-3886-4385-8aa5-12f55d49e729": {
+          "ordinal": 2,
+          "_id": "c68e356c-3886-4385-8aa5-12f55d49e729",
+          "row": "row-1",
+          "title": "Nombre",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "ST",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "dbName": "nombre"
+        },
+        "e51564ce-2c7c-46ea-bc46-154f2b53715e": {
+          "ordinal": 3,
+          "_id": "e51564ce-2c7c-46ea-bc46-154f2b53715e",
+          "row": "row-1",
+          "title": "Apellido 1 ",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "ST",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "dbName": "apellido1"
+        },
+        "ed5887d8-4099-44b6-b2e1-3145e5fa920c": {
+          "ordinal": 4,
+          "_id": "ed5887d8-4099-44b6-b2e1-3145e5fa920c",
+          "row": "row-1",
+          "title": "Apellido 2 ",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "ST",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "dbName": "apellido2"
+        },
+        "2cfa990e-4b54-410d-ac1e-556c871ed74e": {
+          "ordinal": 5,
+          "_id": "2cfa990e-4b54-410d-ac1e-556c871ed74e",
+          "row": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+          "title": "Sexo",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "response_options": [
+            {
+              "_id": "b9cc2fc7-26c1-47f9-b818-59f1bd2ae7cf",
+              "option_value": "Mujer",
+              "option_ref": "0"
+            },
+            {
+              "_id": "cb3c5e93-6e2d-4e92-bda5-4a6397c6b1de",
+              "option_value": "Hombre",
+              "option_ref": "1"
+            }
+          ],
+          "dbName": "sexo"
+        },
+        "b641c33c-1e7c-4352-8718-993c0a7608d3": {
+          "ordinal": 6,
+          "_id": "b641c33c-1e7c-4352-8718-993c0a7608d3",
+          "row": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+          "title": "Fecha nacimiento",
+          "units": "",
+          "field_type": "date",
+          "data_type": "DATE",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "dbName": "fecha_nto"
+        },
+        "501cab38-b1f4-4812-bd3b-7e5c03fb8001": {
+          "ordinal": 7,
+          "_id": "501cab38-b1f4-4812-bd3b-7e5c03fb8001",
+          "row": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+          "title": "Edad",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "dbName": "Edad_visita_basal"
+        },
+        "e5491753-00ac-4693-855d-17afcb35a8fc": {
+          "ordinal": 8,
+          "_id": "e5491753-00ac-4693-855d-17afcb35a8fc",
+          "row": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+          "title": "Nivel de educación",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "response_options": [
+            {
+              "_id": "04860cea-6998-4141-8dd8-a2dea69d9ac4",
+              "option_value": "Analfabeto",
+              "option_ref": "0"
+            },
+            {
+              "_id": "403f1d0c-2e7f-4cb1-81da-6c197a4d091d",
+              "option_value": "Básica",
+              "option_ref": "1"
+            },
+            {
+              "_id": "88a09cbc-fae3-4dd5-a6b8-6d9ceec5f3bd",
+              "option_value": "Secundaria",
+              "option_ref": "2"
+            },
+            {
+              "_id": "e6f2abe9-87b9-4737-aa0c-e48c4f539137",
+              "option_value": "Universitario",
+              "option_ref": "3"
+            },
+            {
+              "_id": "159cd58c-7e6a-4c87-a4b9-2d89133af8e2",
+              "option_value": "Otros",
+              "option_ref": "4"
+            }
+          ],
+          "dbName": "educacion"
+        },
+        "14a03960-31b2-4dd6-8a5f-900d003a9b43": {
+          "ordinal": 9,
+          "_id": "14a03960-31b2-4dd6-8a5f-900d003a9b43",
+          "row": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+          "title": "Activo laboralmente",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "response_options": [
+            {
+              "_id": "4acb0331-afc8-4d99-a1f3-5ad6f29fca4f",
+              "option_value": "No",
+              "option_ref": "0"
+            },
+            {
+              "_id": "27e4236a-fc3a-4abe-9be9-5254df8c592a",
+              "option_value": "Si",
+              "option_ref": "1"
+            }
+          ],
+          "dbName": "activo_laboral"
+        },
+        "ce681716-4e77-4db7-ba81-63120465a29e": {
+          "ordinal": 10,
+          "_id": "ce681716-4e77-4db7-ba81-63120465a29e",
+          "row": "row-10f1a875-d7a1-4309-97ee-fdb12116a173",
+          "title": "Fecha de inclusión en registro",
+          "units": "",
+          "field_type": "date",
+          "data_type": "DATE",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "dbName": "fecha_inclusion_registro"
+        }
+      },
+      "sections": {
+        "sect-1": {
+          "id": "sect-1",
+          "title": "",
+          "rowsId": [
+            "row-1",
+            "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+            "row-10f1a875-d7a1-4309-97ee-fdb12116a173"
+          ]
+        }
+      },
+      "sectionOrder": ["sect-1"],
+      "rows": {
+        "row-0": {
+          "id": "row-0",
+          "title": "Añadir Elemento",
+          "elementosId": []
+        },
+        "row-1": {
+          "id": "row-1",
+          "title": "",
+          "elementosId": [
+            {
+              "ordinal": 0,
+              "_id": "f9081479-d29c-41f8-8c21-a88b3aec6852",
+              "row": "row-1",
+              "title": "NHC",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "dbName": "nhc",
+              "conditional_value": null
+            },
+            {
+              "ordinal": 1,
+              "_id": "68fa38a2-2f4c-4256-a493-51017806ca00",
+              "row": "row-1",
+              "title": "NUHSA",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "ST",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "dbName": "nuhsa"
+            },
+            {
+              "ordinal": 2,
+              "_id": "c68e356c-3886-4385-8aa5-12f55d49e729",
+              "row": "row-1",
+              "title": "Nombre",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "ST",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "dbName": "nombre"
+            },
+            {
+              "ordinal": 3,
+              "_id": "e51564ce-2c7c-46ea-bc46-154f2b53715e",
+              "row": "row-1",
+              "title": "Apellido 1 ",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "ST",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "dbName": "apellido1"
+            },
+            {
+              "ordinal": 4,
+              "_id": "ed5887d8-4099-44b6-b2e1-3145e5fa920c",
+              "row": "row-1",
+              "title": "Apellido 2 ",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "ST",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "dbName": "apellido2"
+            }
+          ],
+          "sectionId": "sect-1",
+          "espaciosOcupados": 10
+        },
+        "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48": {
+          "id": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+          "title": "Nueva Fila",
+          "elementosId": [
+            {
+              "ordinal": 6,
+              "_id": "b641c33c-1e7c-4352-8718-993c0a7608d3",
+              "row": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+              "title": "Fecha nacimiento",
+              "units": "",
+              "field_type": "date",
+              "data_type": "DATE",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "dbName": "fecha_nto"
+            },
+            {
+              "ordinal": 5,
+              "_id": "2cfa990e-4b54-410d-ac1e-556c871ed74e",
+              "row": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+              "title": "Sexo",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "response_options": [
+                {
+                  "_id": "b9cc2fc7-26c1-47f9-b818-59f1bd2ae7cf",
+                  "option_value": "Mujer",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "cb3c5e93-6e2d-4e92-bda5-4a6397c6b1de",
+                  "option_value": "Hombre",
+                  "option_ref": "1"
+                }
+              ],
+              "dbName": "sexo"
+            },
+            {
+              "ordinal": 7,
+              "_id": "501cab38-b1f4-4812-bd3b-7e5c03fb8001",
+              "row": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+              "title": "Edad",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "dbName": "Edad_visita_basal"
+            },
+            {
+              "ordinal": 8,
+              "_id": "e5491753-00ac-4693-855d-17afcb35a8fc",
+              "row": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+              "title": "Nivel de educación",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "response_options": [
+                {
+                  "_id": "04860cea-6998-4141-8dd8-a2dea69d9ac4",
+                  "option_value": "Analfabeto",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "403f1d0c-2e7f-4cb1-81da-6c197a4d091d",
+                  "option_value": "Básica",
+                  "option_ref": "1"
+                },
+                {
+                  "_id": "88a09cbc-fae3-4dd5-a6b8-6d9ceec5f3bd",
+                  "option_value": "Secundaria",
+                  "option_ref": "2"
+                },
+                {
+                  "_id": "e6f2abe9-87b9-4737-aa0c-e48c4f539137",
+                  "option_value": "Universitario",
+                  "option_ref": "3"
+                },
+                {
+                  "_id": "159cd58c-7e6a-4c87-a4b9-2d89133af8e2",
+                  "option_value": "Otros",
+                  "option_ref": "4"
+                }
+              ],
+              "dbName": "educacion"
+            },
+            {
+              "ordinal": 9,
+              "_id": "14a03960-31b2-4dd6-8a5f-900d003a9b43",
+              "row": "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+              "title": "Activo laboralmente",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "response_options": [
+                {
+                  "_id": "4acb0331-afc8-4d99-a1f3-5ad6f29fca4f",
+                  "option_value": "No",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "27e4236a-fc3a-4abe-9be9-5254df8c592a",
+                  "option_value": "Si",
+                  "option_ref": "1"
+                }
+              ],
+              "dbName": "activo_laboral"
+            }
+          ],
+          "sectionId": "sect-1",
+          "espaciosOcupados": 10
+        },
+        "row-10f1a875-d7a1-4309-97ee-fdb12116a173": {
+          "id": "row-10f1a875-d7a1-4309-97ee-fdb12116a173",
+          "title": "Nueva Fila",
+          "elementosId": [
+            {
+              "ordinal": 10,
+              "_id": "ce681716-4e77-4db7-ba81-63120465a29e",
+              "row": "row-10f1a875-d7a1-4309-97ee-fdb12116a173",
+              "title": "Fecha de inclusión en registro",
+              "units": "",
+              "field_type": "date",
+              "data_type": "DATE",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "dbName": "fecha_inclusion_registro"
+            }
+          ],
+          "sectionId": "sect-1",
+          "espaciosOcupados": 2
+        }
+      },
+      "rowOrder": [
+        "row-1",
+        "row-18c66dad-da32-4990-bc7c-c5ccbe3b3b48",
+        "row-10f1a875-d7a1-4309-97ee-fdb12116a173"
+      ],
+      "position": 0
+    },
+    {
+      "id": "Pestaña-1636023816069",
+      "nombre_seccion": "Exposición a tóxicos",
+      "elementos": {
+        "01acb5f7-fe87-4c92-900e-bafa41dc42eb": {
+          "ordinal": 0,
+          "_id": "01acb5f7-fe87-4c92-900e-bafa41dc42eb",
+          "row": "row-1",
+          "title": "Fumador",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "response_options": [
+            {
+              "_id": "7561da59-e3f3-4ef4-9e60-55b93875a1cc",
+              "option_value": "No",
+              "option_ref": "0"
+            },
+            {
+              "_id": "a791ed49-70a8-45dd-aabf-9e8c787061ac",
+              "option_value": "Ex",
+              "option_ref": "1"
+            },
+            {
+              "_id": "7e0c97f8-1db1-4b6f-bd63-84797f577457",
+              "option_value": "Si ",
+              "option_ref": "2"
+            }
+          ],
+          "dbName": "fumador"
+        },
+        "025c41da-6589-4353-a6ab-6b25d235a78d": {
+          "ordinal": 1,
+          "_id": "025c41da-6589-4353-a6ab-6b25d235a78d",
+          "row": "row-fed9e752-09ae-4404-91f0-1b056287675e",
+          "title": "Exposición laboral",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "response_options": [
+            {
+              "_id": "cbaf2bf8-4bb9-4e1f-abfa-5e77fc26a11b",
+              "option_value": "No",
+              "option_ref": "0"
+            },
+            {
+              "_id": "a1e8726b-861c-47f1-ac4d-cb9d54a78cae",
+              "option_value": "Si",
+              "option_ref": "1"
+            }
+          ],
+          "dbName": "expo_laboral"
+        },
+        "58714cb6-7295-473e-b854-cb92226531fe": {
+          "ordinal": 2,
+          "_id": "58714cb6-7295-473e-b854-cb92226531fe",
+          "row": "row-1",
+          "title": "Consumo acumulado en la inclusión",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "REAL",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": true,
+          "dbName": "consumo_tabaco"
+        },
+        "fd591c5c-546e-4a34-928c-9200a0d0163d": {
+          "ordinal": 3,
+          "_id": "fd591c5c-546e-4a34-928c-9200a0d0163d",
+          "row": "row-fed9e752-09ae-4404-91f0-1b056287675e",
+          "title": "Especificar exposición laboral",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "ST",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "dbName": "expo_laboral_txt"
+        }
+      },
+      "sections": {
+        "sect-1": {
+          "id": "sect-1",
+          "title": "",
+          "rowsId": ["row-1", "row-fed9e752-09ae-4404-91f0-1b056287675e"],
+          "hasTable": false
+        }
+      },
+      "sectionOrder": ["sect-1"],
+      "rows": {
+        "row-0": {
+          "id": "row-0",
+          "title": "Añadir Elemento",
+          "elementosId": []
+        },
+        "row-1": {
+          "id": "row-1",
+          "title": "",
+          "elementosId": [
+            {
+              "ordinal": 0,
+              "_id": "01acb5f7-fe87-4c92-900e-bafa41dc42eb",
+              "row": "row-1",
+              "title": "Fumador",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "response_options": [
+                {
+                  "_id": "7561da59-e3f3-4ef4-9e60-55b93875a1cc",
+                  "option_value": "No",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "a791ed49-70a8-45dd-aabf-9e8c787061ac",
+                  "option_value": "Ex",
+                  "option_ref": "1"
+                },
+                {
+                  "_id": "7e0c97f8-1db1-4b6f-bd63-84797f577457",
+                  "option_value": "Si ",
+                  "option_ref": "2"
+                }
+              ],
+              "dbName": "fumador"
+            },
+            {
+              "ordinal": 2,
+              "_id": "58714cb6-7295-473e-b854-cb92226531fe",
+              "row": "row-1",
+              "title": "Consumo acumulado en la inclusión",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "REAL",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": true,
+              "dbName": "consumo_tabaco"
+            }
+          ],
+          "sectionId": "sect-1",
+          "espaciosOcupados": 4
+        },
+        "row-fed9e752-09ae-4404-91f0-1b056287675e": {
+          "id": "row-fed9e752-09ae-4404-91f0-1b056287675e",
+          "title": "Nueva Fila",
+          "elementosId": [
+            {
+              "ordinal": 1,
+              "_id": "025c41da-6589-4353-a6ab-6b25d235a78d",
+              "row": "row-fed9e752-09ae-4404-91f0-1b056287675e",
+              "title": "Exposición laboral",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "response_options": [
+                {
+                  "_id": "cbaf2bf8-4bb9-4e1f-abfa-5e77fc26a11b",
+                  "option_value": "No",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "a1e8726b-861c-47f1-ac4d-cb9d54a78cae",
+                  "option_value": "Si",
+                  "option_ref": "1"
+                }
+              ],
+              "dbName": "expo_laboral"
+            },
+            {
+              "ordinal": 3,
+              "_id": "fd591c5c-546e-4a34-928c-9200a0d0163d",
+              "row": "row-fed9e752-09ae-4404-91f0-1b056287675e",
+              "title": "Especificar exposición laboral",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "ST",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "dbName": "expo_laboral_txt"
+            }
+          ],
+          "sectionId": "sect-1",
+          "espaciosOcupados": 4
+        }
+      },
+      "rowOrder": ["row-1", "row-fed9e752-09ae-4404-91f0-1b056287675e"],
+      "position": 1,
+      "owner_id": "6183bb77772bdf00c0bda2b9"
+    },
+    {
+      "id": "Pestaña-1636023832820",
+      "nombre_seccion": "Registros",
+      "elementos": {
+        "14f13b1a-e066-4e5e-864f-1e9fe444b6c4": {
+          "ordinal": 0,
+          "_id": "14f13b1a-e066-4e5e-864f-1e9fe444b6c4",
+          "row": "row-1",
+          "title": "¿Firma consentimiento?",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "response_options": [
+            {
+              "_id": "4f131db6-63db-4b80-94d3-b866273e0fc9",
+              "option_value": "No",
+              "option_ref": "0"
+            },
+            {
+              "_id": "3dbd7da4-a62d-440b-a9da-6524915ac831",
+              "option_value": "Sí",
+              "option_ref": "1"
+            }
+          ],
+          "dbName": "huvr_firmaconsentimiento"
+        },
+        "09b1da9f-f924-4feb-944e-3e6f15855e45": {
+          "ordinal": 1,
+          "_id": "09b1da9f-f924-4feb-944e-3e6f15855e45",
+          "row": "row-1",
+          "title": "Fecha consentimiento",
+          "units": "",
+          "field_type": "date",
+          "data_type": "DATE",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": "14f13b1a-e066-4e5e-864f-1e9fe444b6c4",
+          "conditional_display_value": "Sí",
+          "field_size": 2,
+          "required": false,
+          "dbName": "huvr_fechaconsentimiento",
+          "conditional_value": {
+            "_id": "3dbd7da4-a62d-440b-a9da-6524915ac831",
+            "option_value": "Sí",
+            "option_ref": "1"
+          }
+        },
+        "889b569a-b454-48ea-ac27-9fe4be36f6bc": {
+          "ordinal": 2,
+          "_id": "889b569a-b454-48ea-ac27-9fe4be36f6bc",
+          "row": "row-1",
+          "title": "PDF del consentimiento",
+          "units": "",
+          "field_type": "file",
+          "data_type": "",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": "14f13b1a-e066-4e5e-864f-1e9fe444b6c4",
+          "conditional_display_value": "Sí",
+          "field_size": 2,
+          "required": false,
+          "dbName": "huvr_pdf",
+          "conditional_value": {
+            "_id": "3dbd7da4-a62d-440b-a9da-6524915ac831",
+            "option_value": "Sí",
+            "option_ref": "1"
+          }
+        },
+        "f434c023-b456-42fc-8357-11cb09b931ed": {
+          "ordinal": 3,
+          "_id": "f434c023-b456-42fc-8357-11cb09b931ed",
+          "row": "row-1",
+          "title": "¿Incluido en registro?",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "response_options": [
+            {
+              "_id": "645dda56-46dc-4664-8fee-dc0b40309f58",
+              "option_value": "No",
+              "option_ref": "0"
+            },
+            {
+              "_id": "afd41a50-f66b-46a2-a12a-e3d627111bde",
+              "option_value": "Sí",
+              "option_ref": "1"
+            }
+          ],
+          "dbName": "huvr_incluido"
+        },
+        "76efaa10-272d-4359-9e05-b29914177f30": {
+          "ordinal": 4,
+          "_id": "76efaa10-272d-4359-9e05-b29914177f30",
+          "row": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+          "title": "¿Firma consentimiento?",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "response_options": [
+            {
+              "_id": "272beb76-4ea9-4624-a9de-1a17b65e4655",
+              "option_value": "No",
+              "option_ref": "0"
+            },
+            {
+              "_id": "7447c17b-8b92-428f-a113-b1a19921c200",
+              "option_value": "Sí",
+              "option_ref": "1"
+            }
+          ],
+          "dbName": "earco_firmaconsentimiento"
+        },
+        "b28934f6-94ec-4f66-a850-e2a8fb4dca65": {
+          "ordinal": 6,
+          "_id": "b28934f6-94ec-4f66-a850-e2a8fb4dca65",
+          "row": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+          "title": "Número de registro",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": "b6c73337-d174-46e9-a05a-e6ffbfe3ae05",
+          "conditional_display_value": "Sí",
+          "field_size": 2,
+          "required": false,
+          "dbName": "earco_numero",
+          "conditional_value": {
+            "_id": "8dd1f3cc-bb9e-41ca-93c1-ddcfcf0f77a2",
+            "option_value": "Sí",
+            "option_ref": "1"
+          }
+        },
+        "36749f87-f428-4b2c-8367-aa66b516b074": {
+          "ordinal": 7,
+          "_id": "36749f87-f428-4b2c-8367-aa66b516b074",
+          "row": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+          "title": "¿Firma consentimiento?",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "response_options": [
+            {
+              "_id": "bdaf7cbc-5f4d-46d2-a855-128d9ea0dbad",
+              "option_value": "No",
+              "option_ref": "0"
+            },
+            {
+              "_id": "3203126b-ca1b-498e-a656-9e8bd27ec3f4",
+              "option_value": "Sí",
+              "option_ref": "1"
+            }
+          ],
+          "dbName": "redaat_firmaconsentimiento"
+        },
+        "8b610286-2b54-423c-a616-d31ddf3d4f81": {
+          "ordinal": 9,
+          "_id": "8b610286-2b54-423c-a616-d31ddf3d4f81",
+          "row": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+          "title": "Número de registro",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": "65558b99-4521-4b3e-9bc0-10d1cd3eba91",
+          "conditional_display_value": "Sí",
+          "field_size": 2,
+          "required": false,
+          "dbName": "redaat_numero",
+          "conditional_value": {
+            "_id": "e8d99027-c39f-4e9e-8890-b9b8048797a1",
+            "option_value": "Sí",
+            "option_ref": "1"
+          }
+        },
+        "ccb62cab-bdd8-4735-bf05-5e1306c8ab30": {
+          "ordinal": 11,
+          "_id": "ccb62cab-bdd8-4735-bf05-5e1306c8ab30",
+          "row": "row-134d8110-edae-48b7-9d92-0e645769431f",
+          "title": "Registro notas",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "ST",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 12,
+          "required": false,
+          "dbName": "registro_notas"
+        },
+        "1f23bb70-d380-4ae5-aa91-4e7fc9d4e1a5": {
+          "ordinal": 12,
+          "_id": "1f23bb70-d380-4ae5-aa91-4e7fc9d4e1a5",
+          "row": "row-1",
+          "title": "Número de registro",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": "f434c023-b456-42fc-8357-11cb09b931ed",
+          "conditional_display_value": "Sí",
+          "field_size": 2,
+          "required": false,
+          "dbName": "huvr_ numero",
+          "conditional_value": {
+            "_id": "afd41a50-f66b-46a2-a12a-e3d627111bde",
+            "option_value": "Sí",
+            "option_ref": "1"
+          }
+        },
+        "fefc79d4-50a0-49ff-afd9-73b7583681c4": {
+          "ordinal": 13,
+          "_id": "fefc79d4-50a0-49ff-afd9-73b7583681c4",
+          "row": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+          "title": "PDF del consentimiento",
+          "units": "",
+          "field_type": "file",
+          "data_type": "",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": "76efaa10-272d-4359-9e05-b29914177f30",
+          "conditional_display_value": "Sí",
+          "field_size": 2,
+          "required": false,
+          "dbName": "earco_pdf",
+          "conditional_value": {
+            "_id": "7447c17b-8b92-428f-a113-b1a19921c200",
+            "option_value": "Sí",
+            "option_ref": "1"
+          }
+        },
+        "b6c73337-d174-46e9-a05a-e6ffbfe3ae05": {
+          "ordinal": 14,
+          "_id": "b6c73337-d174-46e9-a05a-e6ffbfe3ae05",
+          "row": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+          "title": "¿Incluido en el registro?",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "response_options": [
+            {
+              "_id": "28849b89-9709-4d77-9b49-bb4d8b1a4e28",
+              "option_value": "No",
+              "option_ref": "0"
+            },
+            {
+              "_id": "8dd1f3cc-bb9e-41ca-93c1-ddcfcf0f77a2",
+              "option_value": "Sí",
+              "option_ref": "1"
+            }
+          ],
+          "dbName": "earco_incluido"
+        },
+        "08735893-1899-476e-a9d3-355710e358f3": {
+          "ordinal": 15,
+          "_id": "08735893-1899-476e-a9d3-355710e358f3",
+          "row": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+          "title": "PDF del consentimiento",
+          "units": "",
+          "field_type": "file",
+          "data_type": "",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": "36749f87-f428-4b2c-8367-aa66b516b074",
+          "conditional_display_value": "Sí",
+          "field_size": 2,
+          "required": false,
+          "dbName": "redaat_pdf",
+          "conditional_value": {
+            "_id": "3203126b-ca1b-498e-a656-9e8bd27ec3f4",
+            "option_value": "Sí",
+            "option_ref": "1"
+          }
+        },
+        "65558b99-4521-4b3e-9bc0-10d1cd3eba91": {
+          "ordinal": 16,
+          "_id": "65558b99-4521-4b3e-9bc0-10d1cd3eba91",
+          "row": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+          "title": "¿Incluido en registro?",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "INT",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "response_options": [
+            {
+              "_id": "7633f440-8d79-4f3a-bcd7-4d35847ee237",
+              "option_value": "No",
+              "option_ref": "0"
+            },
+            {
+              "_id": "e8d99027-c39f-4e9e-8890-b9b8048797a1",
+              "option_value": "Sí",
+              "option_ref": "1"
+            }
+          ],
+          "dbName": "redaat_incluido"
+        },
+        "3fc06963-5498-4c78-9d67-1eb42a72de96": {
+          "ordinal": 18,
+          "_id": "3fc06963-5498-4c78-9d67-1eb42a72de96",
+          "row": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+          "title": "Fecha consentimiento",
+          "units": "",
+          "field_type": "date",
+          "data_type": "DATE",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": "76efaa10-272d-4359-9e05-b29914177f30",
+          "conditional_display_value": "Sí",
+          "conditional_value": {
+            "_id": "3dbd7da4-a62d-440b-a9da-6524915ac831",
+            "option_value": "Sí",
+            "option_ref": "1"
+          },
+          "field_size": 2,
+          "required": false,
+          "dbName": "earco_fechaconsentimiento"
+        },
+        "3a062774-f4d0-45dc-a7b7-28b15e6c7b34": {
+          "ordinal": 18,
+          "_id": "3a062774-f4d0-45dc-a7b7-28b15e6c7b34",
+          "row": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+          "title": "Fecha consentimiento",
+          "units": "",
+          "field_type": "date",
+          "data_type": "DATE",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": "36749f87-f428-4b2c-8367-aa66b516b074",
+          "conditional_display_value": "Sí",
+          "field_size": 2,
+          "required": false,
+          "dbName": "redaat_fechaconsentimiento",
+          "conditional_value": {
+            "_id": "3203126b-ca1b-498e-a656-9e8bd27ec3f4",
+            "option_value": "Sí",
+            "option_ref": "1"
+          }
+        },
+        "ec38badc-be22-46c5-898a-e7027ec12616": {
+          "ordinal": 18,
+          "_id": "ec38badc-be22-46c5-898a-e7027ec12616",
+          "row": "row-ef3f5605-8a69-4584-ac5e-c61456d6d40c",
+          "title": "Fecha de la muestra de sangre",
+          "units": "",
+          "field_type": "textfield",
+          "data_type": "ST",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": "cb7ac150-c4ff-4706-9628-3909fb859522",
+          "conditional_display_value": "Sí",
+          "field_size": 2,
+          "required": false,
+          "dbName": "huvr_sangrefecha",
+          "conditional_value": {
+            "_id": "de2f5cb9-6b2c-4772-8cef-81a4a6592016",
+            "option_value": "Sí",
+            "option_ref": "1"
+          }
+        },
+        "cb7ac150-c4ff-4706-9628-3909fb859522": {
+          "ordinal": 19,
+          "_id": "cb7ac150-c4ff-4706-9628-3909fb859522",
+          "row": "row-ef3f5605-8a69-4584-ac5e-c61456d6d40c",
+          "title": "¿Muestra de sangre?",
+          "units": "",
+          "field_type": "radio",
+          "data_type": "ST",
+          "value": "",
+          "default_value": "",
+          "calculation": "",
+          "display_status": "true",
+          "conditional_display_id": null,
+          "conditional_display_value": null,
+          "field_size": 2,
+          "required": false,
+          "response_options": [
+            {
+              "_id": "06fd556b-e2b8-44ca-8791-b7831b2b9427",
+              "option_value": "No",
+              "option_ref": "0"
+            },
+            {
+              "_id": "de2f5cb9-6b2c-4772-8cef-81a4a6592016",
+              "option_value": "Sí",
+              "option_ref": "1"
+            }
+          ],
+          "dbName": "huvr_sangre"
+        }
+      },
+      "sections": {
+        "sect-1": {
+          "id": "sect-1",
+          "title": "Registro HUVR",
+          "rowsId": ["row-1", "row-ef3f5605-8a69-4584-ac5e-c61456d6d40c"],
+          "hasTable": false,
+          "description": ""
+        },
+        "sect-387df329-bd0f-43c1-b379-2e960becb56c": {
+          "id": "sect-387df329-bd0f-43c1-b379-2e960becb56c",
+          "title": "Registro EARCO",
+          "rowsId": ["row-1d60a3ad-4844-40a4-8c58-4fe3d5951633"],
+          "hasTable": false,
+          "description": ""
+        },
+        "sect-eb32bcec-2421-4e5a-b2e1-a68a90e265aa": {
+          "id": "sect-eb32bcec-2421-4e5a-b2e1-a68a90e265aa",
+          "title": "Registro REDAAT",
+          "rowsId": [
+            "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+            "row-feff3e29-4890-4d40-a017-0f27c7e933cc"
+          ],
+          "hasTable": false,
+          "description": ""
+        },
+        "sect-4a85935b-3460-4258-8f4b-e8c19bb2e4cf": {
+          "id": "sect-4a85935b-3460-4258-8f4b-e8c19bb2e4cf",
+          "title": "",
+          "rowsId": ["row-134d8110-edae-48b7-9d92-0e645769431f"],
+          "hasTable": false
+        }
+      },
+      "sectionOrder": [
+        "sect-1",
+        "sect-387df329-bd0f-43c1-b379-2e960becb56c",
+        "sect-eb32bcec-2421-4e5a-b2e1-a68a90e265aa",
+        "sect-4a85935b-3460-4258-8f4b-e8c19bb2e4cf"
+      ],
+      "rows": {
+        "row-0": {
+          "id": "row-0",
+          "title": "Añadir Elemento",
+          "elementosId": []
+        },
+        "row-1": {
+          "id": "row-1",
+          "title": "",
+          "elementosId": [
+            {
+              "ordinal": 0,
+              "_id": "14f13b1a-e066-4e5e-864f-1e9fe444b6c4",
+              "row": "row-1",
+              "title": "¿Firma consentimiento?",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "response_options": [
+                {
+                  "_id": "4f131db6-63db-4b80-94d3-b866273e0fc9",
+                  "option_value": "No",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "3dbd7da4-a62d-440b-a9da-6524915ac831",
+                  "option_value": "Sí",
+                  "option_ref": "1"
+                }
+              ],
+              "dbName": "huvr_firmaconsentimiento"
+            },
+            {
+              "ordinal": 1,
+              "_id": "09b1da9f-f924-4feb-944e-3e6f15855e45",
+              "row": "row-1",
+              "title": "Fecha consentimiento",
+              "units": "",
+              "field_type": "date",
+              "data_type": "DATE",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": "14f13b1a-e066-4e5e-864f-1e9fe444b6c4",
+              "conditional_display_value": "Sí",
+              "field_size": 2,
+              "required": false,
+              "dbName": "huvr_fechaconsentimiento",
+              "conditional_value": {
+                "_id": "3dbd7da4-a62d-440b-a9da-6524915ac831",
+                "option_value": "Sí",
+                "option_ref": "1"
+              }
+            },
+            {
+              "ordinal": 2,
+              "_id": "889b569a-b454-48ea-ac27-9fe4be36f6bc",
+              "row": "row-1",
+              "title": "PDF del consentimiento",
+              "units": "",
+              "field_type": "file",
+              "data_type": "",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": "14f13b1a-e066-4e5e-864f-1e9fe444b6c4",
+              "conditional_display_value": "Sí",
+              "field_size": 2,
+              "required": false,
+              "dbName": "huvr_pdf",
+              "conditional_value": {
+                "_id": "3dbd7da4-a62d-440b-a9da-6524915ac831",
+                "option_value": "Sí",
+                "option_ref": "1"
+              }
+            },
+            {
+              "ordinal": 3,
+              "_id": "f434c023-b456-42fc-8357-11cb09b931ed",
+              "row": "row-1",
+              "title": "¿Incluido en registro?",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "response_options": [
+                {
+                  "_id": "645dda56-46dc-4664-8fee-dc0b40309f58",
+                  "option_value": "No",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "afd41a50-f66b-46a2-a12a-e3d627111bde",
+                  "option_value": "Sí",
+                  "option_ref": "1"
+                }
+              ],
+              "dbName": "huvr_incluido"
+            },
+            {
+              "ordinal": 12,
+              "_id": "1f23bb70-d380-4ae5-aa91-4e7fc9d4e1a5",
+              "row": "row-1",
+              "title": "Número de registro",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": "f434c023-b456-42fc-8357-11cb09b931ed",
+              "conditional_display_value": "Sí",
+              "field_size": 2,
+              "required": false,
+              "dbName": "huvr_ numero",
+              "conditional_value": {
+                "_id": "afd41a50-f66b-46a2-a12a-e3d627111bde",
+                "option_value": "Sí",
+                "option_ref": "1"
+              }
+            }
+          ],
+          "sectionId": "sect-1",
+          "espaciosOcupados": 10
+        },
+        "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633": {
+          "id": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+          "title": "Nueva Fila",
+          "elementosId": [
+            {
+              "ordinal": 4,
+              "_id": "76efaa10-272d-4359-9e05-b29914177f30",
+              "row": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+              "title": "¿Firma consentimiento?",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "response_options": [
+                {
+                  "_id": "272beb76-4ea9-4624-a9de-1a17b65e4655",
+                  "option_value": "No",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "7447c17b-8b92-428f-a113-b1a19921c200",
+                  "option_value": "Sí",
+                  "option_ref": "1"
+                }
+              ],
+              "dbName": "earco_firmaconsentimiento"
+            },
+            {
+              "ordinal": 18,
+              "_id": "3fc06963-5498-4c78-9d67-1eb42a72de96",
+              "row": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+              "title": "Fecha consentimiento",
+              "units": "",
+              "field_type": "date",
+              "data_type": "DATE",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": "76efaa10-272d-4359-9e05-b29914177f30",
+              "conditional_display_value": "Sí",
+              "conditional_value": {
+                "_id": "7447c17b-8b92-428f-a113-b1a19921c200",
+                "option_value": "Sí",
+                "option_ref": "1"
+              },
+              "field_size": 2,
+              "required": false,
+              "dbName": "earco_fechaconsentimiento"
+            },
+            {
+              "ordinal": 13,
+              "_id": "fefc79d4-50a0-49ff-afd9-73b7583681c4",
+              "row": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+              "title": "PDF del consentimiento",
+              "units": "",
+              "field_type": "file",
+              "data_type": "",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": "76efaa10-272d-4359-9e05-b29914177f30",
+              "conditional_display_value": "Sí",
+              "field_size": 2,
+              "required": false,
+              "dbName": "earco_pdf",
+              "conditional_value": {
+                "_id": "7447c17b-8b92-428f-a113-b1a19921c200",
+                "option_value": "Sí",
+                "option_ref": "1"
+              }
+            },
+            {
+              "ordinal": 14,
+              "_id": "b6c73337-d174-46e9-a05a-e6ffbfe3ae05",
+              "row": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+              "title": "¿Incluido en el registro?",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "response_options": [
+                {
+                  "_id": "28849b89-9709-4d77-9b49-bb4d8b1a4e28",
+                  "option_value": "No",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "8dd1f3cc-bb9e-41ca-93c1-ddcfcf0f77a2",
+                  "option_value": "Sí",
+                  "option_ref": "1"
+                }
+              ],
+              "dbName": "earco_incluido"
+            },
+            {
+              "ordinal": 6,
+              "_id": "b28934f6-94ec-4f66-a850-e2a8fb4dca65",
+              "row": "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+              "title": "Número de registro",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": "b6c73337-d174-46e9-a05a-e6ffbfe3ae05",
+              "conditional_display_value": "Sí",
+              "field_size": 2,
+              "required": false,
+              "dbName": "earco_numero",
+              "conditional_value": {
+                "_id": "8dd1f3cc-bb9e-41ca-93c1-ddcfcf0f77a2",
+                "option_value": "Sí",
+                "option_ref": "1"
+              }
+            }
+          ],
+          "sectionId": "sect-387df329-bd0f-43c1-b379-2e960becb56c",
+          "espaciosOcupados": 10
+        },
+        "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6": {
+          "id": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+          "title": "Nueva Fila",
+          "elementosId": [
+            {
+              "ordinal": 7,
+              "_id": "36749f87-f428-4b2c-8367-aa66b516b074",
+              "row": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+              "title": "¿Firma consentimiento?",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "response_options": [
+                {
+                  "_id": "bdaf7cbc-5f4d-46d2-a855-128d9ea0dbad",
+                  "option_value": "No",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "3203126b-ca1b-498e-a656-9e8bd27ec3f4",
+                  "option_value": "Sí",
+                  "option_ref": "1"
+                }
+              ],
+              "dbName": "redaat_firmaconsentimiento"
+            },
+            {
+              "ordinal": 18,
+              "_id": "3a062774-f4d0-45dc-a7b7-28b15e6c7b34",
+              "row": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+              "title": "Fecha consentimiento",
+              "units": "",
+              "field_type": "date",
+              "data_type": "DATE",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": "36749f87-f428-4b2c-8367-aa66b516b074",
+              "conditional_display_value": "Sí",
+              "field_size": 2,
+              "required": false,
+              "dbName": "redaat_fechaconsentimiento",
+              "conditional_value": {
+                "_id": "3203126b-ca1b-498e-a656-9e8bd27ec3f4",
+                "option_value": "Sí",
+                "option_ref": "1"
+              }
+            },
+            {
+              "ordinal": 15,
+              "_id": "08735893-1899-476e-a9d3-355710e358f3",
+              "row": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+              "title": "PDF del consentimiento",
+              "units": "",
+              "field_type": "file",
+              "data_type": "",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": "36749f87-f428-4b2c-8367-aa66b516b074",
+              "conditional_display_value": "Sí",
+              "field_size": 2,
+              "required": false,
+              "dbName": "redaat_pdf",
+              "conditional_value": {
+                "_id": "3203126b-ca1b-498e-a656-9e8bd27ec3f4",
+                "option_value": "Sí",
+                "option_ref": "1"
+              }
+            },
+            {
+              "ordinal": 16,
+              "_id": "65558b99-4521-4b3e-9bc0-10d1cd3eba91",
+              "row": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+              "title": "¿Incluido en registro?",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "response_options": [
+                {
+                  "_id": "7633f440-8d79-4f3a-bcd7-4d35847ee237",
+                  "option_value": "No",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "e8d99027-c39f-4e9e-8890-b9b8048797a1",
+                  "option_value": "Sí",
+                  "option_ref": "1"
+                }
+              ],
+              "dbName": "redaat_incluido"
+            },
+            {
+              "ordinal": 9,
+              "_id": "8b610286-2b54-423c-a616-d31ddf3d4f81",
+              "row": "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+              "title": "Número de registro",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "INT",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": "65558b99-4521-4b3e-9bc0-10d1cd3eba91",
+              "conditional_display_value": "Sí",
+              "field_size": 2,
+              "required": false,
+              "dbName": "redaat_numero",
+              "conditional_value": {
+                "_id": "e8d99027-c39f-4e9e-8890-b9b8048797a1",
+                "option_value": "Sí",
+                "option_ref": "1"
+              }
+            }
+          ],
+          "sectionId": "sect-eb32bcec-2421-4e5a-b2e1-a68a90e265aa",
+          "espaciosOcupados": 10
+        },
+        "row-134d8110-edae-48b7-9d92-0e645769431f": {
+          "id": "row-134d8110-edae-48b7-9d92-0e645769431f",
+          "title": "Nueva Fila",
+          "elementosId": [
+            {
+              "ordinal": 11,
+              "_id": "ccb62cab-bdd8-4735-bf05-5e1306c8ab30",
+              "row": "row-134d8110-edae-48b7-9d92-0e645769431f",
+              "title": "Registro notas",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "ST",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 12,
+              "required": false,
+              "dbName": "registro_notas"
+            }
+          ],
+          "sectionId": "sect-4a85935b-3460-4258-8f4b-e8c19bb2e4cf",
+          "espaciosOcupados": 12
+        },
+        "row-feff3e29-4890-4d40-a017-0f27c7e933cc": {
+          "id": "row-feff3e29-4890-4d40-a017-0f27c7e933cc",
+          "title": "Nueva Fila",
+          "elementosId": [],
+          "sectionId": "sect-eb32bcec-2421-4e5a-b2e1-a68a90e265aa",
+          "espaciosOcupados": 0
+        },
+        "row-ef3f5605-8a69-4584-ac5e-c61456d6d40c": {
+          "id": "row-ef3f5605-8a69-4584-ac5e-c61456d6d40c",
+          "title": "Nueva Fila",
+          "elementosId": [
+            {
+              "ordinal": 19,
+              "_id": "cb7ac150-c4ff-4706-9628-3909fb859522",
+              "row": "row-ef3f5605-8a69-4584-ac5e-c61456d6d40c",
+              "title": "¿Muestra de sangre?",
+              "units": "",
+              "field_type": "radio",
+              "data_type": "ST",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": null,
+              "conditional_display_value": null,
+              "field_size": 2,
+              "required": false,
+              "response_options": [
+                {
+                  "_id": "06fd556b-e2b8-44ca-8791-b7831b2b9427",
+                  "option_value": "No",
+                  "option_ref": "0"
+                },
+                {
+                  "_id": "de2f5cb9-6b2c-4772-8cef-81a4a6592016",
+                  "option_value": "Sí",
+                  "option_ref": "1"
+                }
+              ],
+              "dbName": "huvr_sangre"
+            },
+            {
+              "ordinal": 18,
+              "_id": "ec38badc-be22-46c5-898a-e7027ec12616",
+              "row": "row-ef3f5605-8a69-4584-ac5e-c61456d6d40c",
+              "title": "Fecha de la muestra de sangre",
+              "units": "",
+              "field_type": "textfield",
+              "data_type": "ST",
+              "value": "",
+              "default_value": "",
+              "calculation": "",
+              "display_status": "true",
+              "conditional_display_id": "cb7ac150-c4ff-4706-9628-3909fb859522",
+              "conditional_display_value": "Sí",
+              "field_size": 2,
+              "required": false,
+              "dbName": "huvr_sangrefecha",
+              "conditional_value": {
+                "_id": "de2f5cb9-6b2c-4772-8cef-81a4a6592016",
+                "option_value": "Sí",
+                "option_ref": "1"
+              }
+            }
+          ],
+          "sectionId": "sect-1",
+          "espaciosOcupados": 4
+        }
+      },
+      "rowOrder": [
+        "row-1",
+        "row-1d60a3ad-4844-40a4-8c58-4fe3d5951633",
+        "row-91bb2b7a-ef85-4916-9c2b-e7335f31b7f6",
+        "row-134d8110-edae-48b7-9d92-0e645769431f",
+        "row-feff3e29-4890-4d40-a017-0f27c7e933cc",
+        "row-ef3f5605-8a69-4584-ac5e-c61456d6d40c"
+      ],
+      "position": 2,
+      "owner_id": "6183bb77772bdf00c0bda2b9"
+    }
+  ],
+  "showInApp": false,
+  "isPeriodical": false,
+  "hasTable": false,
+  "active": true,
+  "finalVersion": true,
+  "draft": false,
+  "name": "Filiación del caso",
+  "createdBy": { "$oid": "6180f158772bdf00c0bda2b6" },
+  "updatedBy": { "$oid": "6180f182772bdf00c0bda2b7" },
+  "group_id": { "$oid": "6183bb77772bdf00c0bda2b8" },
+  "createdAt": { "$date": "2021-11-04T10:52:39.405Z" },
+  "updatedAt": { "$date": "2022-01-17T09:57:28.189Z" },
+  "description": ""
+}
