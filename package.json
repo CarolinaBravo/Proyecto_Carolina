@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "elementos.js",
   "scripts": {
-    "start": "node xlsxtojson.js",
+    "start": "node app-jose.js && exit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
