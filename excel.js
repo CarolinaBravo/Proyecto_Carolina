@@ -7,12 +7,14 @@ const ExcelAJSON = () => {
   });
 
   var nombreHoja = excel.SheetNames; // regresa un array
-  let datos = XLSX.utils.sheet_to_json(excel.Sheets[nombreHoja[0]], {
-    raw: false,
-    dateNF: "dd/mm/yyyy",
+  const hojas = nombreHoja.map((name) => {
+    return XLSX.utils.sheet_to_json(excel.Sheets[name], {
+      raw: false,
+      dateNF: "dd/mm/yyyy",
+    });
   });
 
-  return datos;
+  return hojas;
 };
 
 module.exports = {
